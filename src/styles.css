@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+}
+
+.text__center {
+  text-align: center;
+}
+
+.text_span__color{
+  color:mediumpurple
+}
+
+.text_span__light {
+  color: aliceblue;
+}
+
+._bg__dark {
+ background-color: darkviolet;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+
+.container_btn {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  background-color: darkslateblue;
+  color: aliceblue;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+  border: none;
+
+&:hover{
+    background-color: blueviolet;
+};
+&:disabled{
+ background-color: gray;
+ color: ghostwhite;
+}
+}
+
